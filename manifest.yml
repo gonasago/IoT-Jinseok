@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-Jinseok
+  host: IoT-Jinseok
+  disk_quota: 1024M
+  services:
+  - IoT-Jinseok-cloudantNoSQLDB
+  - IoT-Jinseok-iotf-service
+  - availability-monitoring-auto
